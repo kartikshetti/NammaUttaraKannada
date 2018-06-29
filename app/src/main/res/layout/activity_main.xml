@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cover"
+            android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_margin="8dp"
+        android:background="#D1C4E9"
+        android:id="@+id/beaches"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Beaches"
+        android:textColor="#212121"/>
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/caves"
+        android:textSize="18sp"
+        android:background="#D1C4E9"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#212121"
+        android:text="Caves"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#212121"
+            android:layout_margin="8dp"
+            android:id="@+id/dams"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dams"
+            android:background="#D1C4E9" />
+        <TextView
+            android:background="#D1C4E9"
+
+            android:textColor="#212121"
+            android:layout_margin="8dp"
+            android:id="@+id/forts"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Forts"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:background="#D1C4E9"
+
+            android:textColor="#212121"
+            android:layout_margin="8dp"
+            android:id="@+id/islands"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Islands" />
+        <TextView
+            android:background="#D1C4E9"
+
+            android:textColor="#212121"
+            android:layout_margin="8dp"
+            android:id="@+id/parks"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="National Parks"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:background="#D1C4E9"
+            android:layout_margin="8dp"
+            android:textColor="#212121"
+            android:id="@+id/temples"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Temples" />
+        <TextView
+            android:background="#D1C4E9"
+            android:layout_margin="8dp"
+            android:textColor="#212121"
+            android:id="@+id/waterfalls"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Waterfalls"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:background="#D1C4E9"
+            android:layout_margin="8dp"
+            android:textColor="#212121"
+            android:id="@+id/others"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Others" />
+        <TextView
+            android:background="#D1C4E9"
+            android:layout_margin="8dp"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""/>
+    </LinearLayout>
+
+</LinearLayout>
+</FrameLayout>
