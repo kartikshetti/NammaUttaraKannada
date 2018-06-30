@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,40 +16,79 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-        <activity android:label="Beaches" android:name=".BeachesActivity" android:parentActivityName=".MainActivity" >
-        <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".BeachesActivity"
+            android:label="Beaches"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-        <activity android:label="Caves" android:name=".CavesActivity" android:parentActivityName=".MainActivity" >
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".CavesActivity"
+            android:label="Caves"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
-        <activity android:label="Forts" android:name=".FortsActivity" android:parentActivityName=".MainActivity" >
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".FortsActivity"
+            android:label="Forts"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
-        <activity android:label="Dams" android:name=".DamsActivity" android:parentActivityName=".MainActivity" >
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".DamsActivity"
+            android:label="Dams"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
-        <activity android:label="Islands" android:name=".IslandsActivity" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".IslandsActivity"
+            android:label="Islands"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
-        <activity android:label="Parks" android:name=".ParksActivity" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".ParksActivity"
+            android:label="Parks"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-        <activity android:label="Waterfalls" android:name=".WaterfallsActivity" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".WaterfallsActivity"
+            android:label="Waterfalls"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-
-        <activity android:label="Others" android:name=".OthersActivity" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".OthersActivity"
+            android:label="Others"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-        <activity android:label="Temples" android:name=".TemplesActivity" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity
+            android:name=".TemplesActivity"
+            android:label="Temples"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
+        <activity android:name=".FavouritesActivity"></activity>
     </application>
 
 </manifest>

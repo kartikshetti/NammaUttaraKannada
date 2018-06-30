@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_beaches"
+            android:title="Beaches"/>
+
+        <item android:id="@+id/nav_caves"
+            android:title="Caves"/>
+
+        <item android:id="@+id/nav_dams"
+            android:title="Dams"/>
+
+        <item android:id="@+id/nav_forts"
+            android:title="Forts"/>
+
+        <item android:id="@+id/nav_islands"
+            android:title="Islands"/>
+
+        <item android:id="@+id/nav_parks"
+            android:title="National Parks and Sanctuaries"/>
+
+        <item android:id="@+id/nav_temples"
+            android:title="Temples"/>
+
+        <item android:id="@+id/nav_waterfalls"
+            android:title="Waterfalls"/>
+
+        <item android:id="@+id/nav_others"
+            android:title="Other Places"/>
+
+        <item android:id="@+id/nav_favourites"
+            android:title="Favourites"/>
+    </group>
+
+</menu>
